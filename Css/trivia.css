@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    
+  }
+body{
+    /* background-size: cover;
+    background-position: 100%;
+    background-image: url(image/backround.jpg); */
+    margin: 0;
+}
+
+
+.center{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+/* header */
+
+/* .logo:hover{
+  text-shadow: 0 -1px 0px #FFF, 0 -2px 10px rgb(122, 13, 124), 0 -10px 20px #5f216d, 0 -18px 40px rgb(99, 21, 103); 
+}
+
+nav a::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 0%;
+  background: #900b8dbd;
+  transition: 1000ms;
+  margin: 0 auto;
+}
+
+
+nav a::before {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 0%;
+  background: #900b8dbd;
+  transition: 1000ms;
+  margin: 0 auto;
+} */
+
+
+/* header nav a:hover {
+  color: #900b8dbd;
+} */
+
+/* .fa-heart-o{
+  animation-name: heart;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+}
+@keyframes heart {
+  0%   {color: rgb(145, 41, 117);}
+  25%  {color: rgb(229, 19, 194); }
+  50%  {color: rgb(122, 43, 109);;}
+  75%  {color:rgb(84, 12, 72);}
+  100% {color: rgb(123, 64, 113);}
+} */
+
+
+/* end header */
+
+main {
+  margin-top: 10px;
+  min-height: 600px;
+  background-position: center;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  background-image: url(images/contact2.jpg);
+}
+
+  main h1{
+    text-shadow: 0 -1px 0px #FFF, 0 -2px 10px rgb(89, 87, 90), 0 -10px 20px #5f216d, 0 -18px 40px rgb(89, 87, 90);
+    font-family: 'Alkatra', cursive;
+  }
+
+
+main .main_div {
+font-family: 'Acme', sans-serif;
+
+  /* border: rgb(246, 231, 216) solid 2px; */
+  min-height: 300px;
+  border-radius: 50px;
+  background: rgba(120, 60, 122, 0.756);
+  animation-name: example;
+animation-duration: 15s;
+animation-iteration-count: infinite;
+/* animation: rotate 3s infinite linear; */
+
+  /* box-shadow: 0px 10px 13px -7px #000000, 5px 5px 9px 5px rgba(198, 93, 123, 0.44), 5px 5px 9px 5px rgba(198, 93, 123, 0.44); */
+  /* box-shadow: 5px 5px 15px 5px rgba(247,247,247,0.44), 5px 5px 15px 5px rgba(247,247,247,0.44); */
+}
+@keyframes example {
+0%   {background-color: rgb(152, 141, 149);  left:0px; top:0px;}
+25%  {background-color: rgb(89, 87, 90); left:20%; top:0px;}
+50%  {background-color: rgb(81, 80, 80);left:-50px; top:100px;}
+75%  {background-color:rgb(229, 226, 230); left:0px; top:200px;}
+100% {background-color: rgb(123, 121, 123); left:0px; top:0px;}
+}
+
+main .main_div h2 {
+  color: rgb(26, 7, 27);
+
+}
+
+main .main_div .answers button {
+  color: rgb(14, 4, 12);
+  background: white;
+  border-radius: 10px;
+  padding: 8px;
+  transition: 800ms;
+  border: none;
+  text-align: center;
+  padding: 8px;
+  margin: 8px;
+  width: 40%;
+  font-size: 1.2em;
+}
+
+main .main_div .answers button:hover {
+  color: white;
+  background: rgb(149, 134, 144);
+}
+
+main .main_div .h4 {
+  color: black;
+  min-height: 50px;
+}
+
+main .main_div .h5 {
+  min-height: 30px;
+}
+
+
+
+
+
+
+
+
+
+

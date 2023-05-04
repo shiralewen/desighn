@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    background-image: url("../image/thank.jpg");
+    text-align: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+p{
+    font-size: 90px;
+    /* background-color: red; */
+    color: white;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+div{
+    margin-top: 100px;
+}

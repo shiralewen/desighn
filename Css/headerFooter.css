@@ -1,0 +1,121 @@
+header {
+  min-height: 60px;
+  background: black;
+  /* position: sticky;
+    z-index: 999; */
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 30px; */
+}
+
+header .logo {
+  width: 800px;
+}
+
+header .logo p {
+  padding: 0 15px;
+}
+
+header .logo img {
+  float: left;
+  width: 15%;
+}
+
+header nav a {
+  padding: 0 8px;
+  color: white;
+  text-decoration: none;
+  font-family: 'Lobster', cursive;
+  font-size: large;
+}
+
+header nav {
+  display: block;
+  width: 453px;
+}
+
+header nav a:hover {
+  color: rgb(93, 92, 92);
+}
+
+header .burger {
+  display: none;
+}
+
+@media screen and (max-width:768px) {
+
+  header .logo img {
+    max-width: 240px;
+  }
+
+
+  header .burger {
+    display: block;
+    font-size: 2em;
+    color: grey;
+
+  }
+
+
+
+  header nav {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background: white;
+    width: 50%;
+  }
+
+  header .container nav a {
+    background: black;
+    display: block;
+    text-align: center;
+    padding: 12px;
+    border-bottom: 1px solid grey;
+  }
+
+}
+
+footer {
+  background: black;
+  min-height: 100px;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  padding: 4px;
+}
+
+footer .foot {
+  display: block;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .icon {
+  /* display: flex; */
+  justify-content: space-between;
+  color: white;
+  padding: 7px;
+}
+
+footer .fa {
+  padding: 7px;
+}
+
+footer h4 {
+  font-family: 'Lobster', cursive;
+  color: white;
+  padding: 7px;
+}
+
+footer .icon i:hover {
+  transform: scale(1.5);
+}

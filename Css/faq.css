@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    /* background: rgb(247, 240, 229); */
+    background-image: url("../image/contact.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+
+}
+
+main{
+    margin: 69px 0;
+}
+
+.accordion .accordion-item .accordion-button{
+    background: black;
+    color:white;
+}
+
+.accordion .accordion-button.collapsed{
+    background: gray;
+    
+    color:white;
+}
+
+.title{
+    margin: 10px;
+
+}
+
+main .accordion{
+   max-width: 500px;
+}
+.accordion .accordion-button{
+    --bs-accordion-btn-focus-border-color:none;
+    --bs-accordion-btn-focus-box-shadow:none;
+}

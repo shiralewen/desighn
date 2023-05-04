@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="../Css/about.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="../Css/headerFooter.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="../image/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../image/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../image/favicon-16x16.png">
+    <link rel="manifest" href="../favicon_io/site.webmanifest">
+</head>
+
+<body>
+    <header class="container-fluid">
+        <div class="container">
+            <div class="logo">
+                <img src="../image/logo.png" alt="logo">
+                <!-- <div>
+                    <p>INTERIOR <br> ARCHITECTURE</p>
+                </div> -->
+
+            </div>
+            <nav id="nav_open" class="d-lg-block">
+                <a href="../index.html">Home</a>
+                <a href="./about.html">About</a>
+                <a href="./gallery.html">Gallery</a>
+                <a href="./contact.html">Contact</a>
+                <a href="./faq.html">FAQ</a>
+                <a href="./trivia.html">Trivia</a>
+            </nav>
+            <div class="burger">
+                <i id="burger_btn" class="fa fa-bars"></i>
+            </div>
+        </div>
+    </header>
+    <!-- end header -->
+
+    <main class="container-fluid">
+        <div class="container">
+            <div class="row ">
+                <div class="box box1 col-md-5 m-4"></div>
+                <div class="box box2 col-md-5 m-4">
+                    <h2>About me</h2>
+                    <p id="id_p"></p>Moti has a deep knowledge of the various worlds of planning and design and provides architectural
+                    consulting, preparation of construction plans, selection of design materials in showrooms, selection
+                    of subcontractors and help in accompanying the renovation and construction works.
+                    Hadar's design style is a combination of classic and modern and is characterized by clean and
+                    elegant lines with high creativity, innovation and freshness.</p><br><spa id="id_span"></spa>
+                    <button id="id_button" type="button" class="btn btn-dark" onclick="readMore()">Read More</button>
+                </div>
+                <div class="box box2 col-md-5 m-4 ">
+                    <h2>About the office</h2>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta reiciendis nulla
+                    doloremque labore nobis repudiandae nihil nemo alias laudantium dolores! Quaerat quia atque,
+                    perspiciatis excepturi ad mollitia? Eos deserunt quas, modi, quis aut rem dolores at numquam itaque
+                    officiis tempore.
+                   
+                </div>
+                <div class="box box4 col-md-5 m-4"></div>
+            </div>
+        </div>
+    </main>
+
+
+    <footer class="container-fluid">
+        <div class="container foot">
+            <div class="right">
+                <h4>©created by Shira Bokowsky</h4>
+            </div>
+            <div class="icon">
+                <a  href="tel://0447730280"><i class="fa fa-phone-square" aria-hidden="true" ></i></a>
+                <a target="_blank" href="https://api.whatsapp.com/send?phone=9720508364552"> <i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                <a target="_blank" href="https://www.youtube.com/"> <i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                <a target="_blank" href="https://github.com/shiralewen"><i class="fa fa-github" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </footer>
+<script>
+    let flag=true;
+    function readMore(){
+        
+        if (flag){
+        document.querySelector("#id_span").innerHTML="Moti Dor interior designer runs a professional and quality interior design and architecture studio.Hadar has over 20 years of experience in planning and accompanying hundreds of projects in the field of interior design, architectural planning and project management."
+        document.querySelector("#id_button").innerHTML="Reade Less"
+        // document.querySelector("#id_button").innerHTML+=`$<i class="fa-solid fa-chevron-up"></i>`
+    }
+    if (!flag){
+            document.querySelector("#id_span").innerHTML="";
+            document.querySelector("#id_button").innerHTML="Read More"
+        }
+        flag=!flag;
+    }
+</script>
+<script src="../burger.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+<script>
+    AOS.init();
+  </script>
+
+</body>
+
+</html>

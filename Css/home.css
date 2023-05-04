@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background: rgb(247, 240, 229);
+    /* background-image: url("../image/contact.jpg"); */
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center; */
+
+}
+ body header{
+    position: sticky;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    background-color: black;
+    color: white;
+} 
+/* .cover{
+    min-height: 0px;
+     display: none;   
+} */
+
+/* .carousel-inner > .item > img {
+    min-width: 100%;
+} */
+
+.center{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+/* header .container{
+    display: flex;
+    position: sticky;
+    z-index: 999;
+} */
+
+.carousel-item{
+    max-height: 400px;
+    /* position: relative; */
+}
+.carousel-item img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position:  center bottom; */
+}
+.three{
+    margin-top: 100px;
+    
+}
+.imgcarosele{
+    height: 400px;
+    background-size: cover;
+    background-position:center;
+}
+
+/* .black{
+    background:rgba(0, 0, 0, 0.299) ;
+    min-height: 300px;
+} */
+
+
+.three .box{
+    box-shadow: -5px 10px 19px -6px rgba(0, 0, 0, 0.75);
+    border: 4px solid #ffffff;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    min-height: 300px;
+    /* color: white; */
+    padding: 0;
+}
+.three .box p{
+    padding-top: 86px;
+    color: white;
+}
+
+.three .box1{
+    background-image: url("../image/Home_Styling.jpg");
+}
+.three .box2{
+    background-image: url("../image/Exterior_Design.jpg");
+}
+.three .box3{
+    background-image: url("../image/Architecture.jpg");
+}
+main .between{
+    /* border: 1px solid ; */
+    border-radius: 20%;
+}
+main .between{
+    padding: 8px;
+    margin: 0 auto;
+}
+.between a{
+    text-decoration: none;
+    color: black;
+
+}
+main .asis1{
+   background-image: url("../image/aside1.jpg");
+   text-align: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   border: 3px solid black;
+   border-radius: 10%;
+}
+
+main .asis2{
+   background-image: url("../image/aside2.jpg");
+
+}
+@media (max-width:768px){
+    .carousel-control-prev{
+        display: none;
+            }
+            .carousel-control-next{
+              display: none;
+        
+            }
+
+    /* section{
+        min-height: 400px;
+        background-image: url("../image/carosel1.jpg");
+        background-size: cover;
+        background-position: center;
+        color: white;
+    } */
+}
